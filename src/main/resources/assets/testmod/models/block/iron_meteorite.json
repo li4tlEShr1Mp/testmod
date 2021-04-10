@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "testmod:blocks/iron_meteorite",
+    "down": "testmod:blocks/iron_meteorite",
+    "up": "testmod:blocks/iron_meteorite",
+    "north": "testmod:blocks/iron_meteorite",
+    "south": "testmod:blocks/iron_meteorite",
+    "west": "testmod:blocks/iron_meteorite",
+    "east": "testmod:blocks/iron_meteorite"
+  }
+}
