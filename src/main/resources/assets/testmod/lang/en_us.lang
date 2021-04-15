@@ -1,3 +1,11 @@
+#ITEM
+#(item.[item registryName].name)
 item.dick.name=Dick
 
+#BLOCK
+#(tile.[block registryName].name)
 tile.iron_meteorite.name=Iron Meteorite
+
+#CREATIVE_TAB
+#(itemGroup.[mod's name])
+itemGroup.testmod=Test Mod

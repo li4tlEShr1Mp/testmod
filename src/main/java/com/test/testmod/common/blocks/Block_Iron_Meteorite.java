@@ -1,26 +1,27 @@
-package com.test.testmod.objects.blocks;
+package com.test.testmod.common.blocks;
 
 import com.test.testmod.TestMod;
-import com.test.testmod.util.ModelExisted;
+import com.test.testmod.util.IModelExisted;
 import com.test.testmod.util.handlers.BlockHandler;
 import com.test.testmod.util.handlers.ItemHandler;
+import com.test.testmod.util.loaders.TestModCreativeTab;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
-public class Block_Iron_Meteorite extends Block implements ModelExisted {
+public class Block_Iron_Meteorite extends Block implements IModelExisted {
     private final String name="iron_meteorite";
     public Block_Iron_Meteorite() {
-        super(Material.IRON);
+        super(Material.ROCK);
         this.setUnlocalizedName(name);
         this.setRegistryName(name);
-        this.setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+        this.setCreativeTab(TestModCreativeTab.TESTMOD);
         this.setHardness(10.0f);
         this.setResistance(6.0f);
         this.setSoundType(SoundType.STONE);
+        this.setHarvestLevel("pickaxe",1);
         BlockHandler.blocks.add(this);
         ItemHandler.items.add(new ItemBlock(this).setRegistryName(name));
 
