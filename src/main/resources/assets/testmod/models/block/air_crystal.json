@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "testmod:blocks/air_crystal",
+    "down": "testmod:blocks/air_crystal",
+    "up": "testmod:blocks/air_crystal",
+    "north": "testmod:blocks/air_crystal",
+    "south": "testmod:blocks/air_crystal",
+    "west": "testmod:blocks/air_crystal",
+    "east": "testmod:blocks/air_crystal"
+  }
+}

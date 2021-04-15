@@ -3,8 +3,9 @@
 item.dick.name=Dick
 
 #BLOCK
-#(tile.[block registryName].name)
+#(tile.[block name].name)
 tile.iron_meteorite.name=Iron Meteorite
+tile.air_crystal.name=Air Crystal
 
 #CREATIVE_TAB
 #(itemGroup.[mod's name])
