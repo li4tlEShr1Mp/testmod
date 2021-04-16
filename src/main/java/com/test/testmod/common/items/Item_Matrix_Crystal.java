@@ -6,9 +6,9 @@ import com.test.testmod.util.handlers.ItemHandler;
 import com.test.testmod.util.loaders.CreativeTabLoader;
 import net.minecraft.item.Item;
 
-public class ItemDick extends Item implements IModelExisted {
-    private final String name="dick";
-    public ItemDick(){
+public class Item_Matrix_Crystal extends Item implements IModelExisted {
+    private static final String name="matrix_crystal";
+    public Item_Matrix_Crystal() {
         this.setUnlocalizedName(name);
         this.setRegistryName(name);
         this.setCreativeTab(CreativeTabLoader.TESTMOD);

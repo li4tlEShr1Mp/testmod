@@ -4,10 +4,10 @@ import com.test.testmod.common.crativetab.CreativeTab_TestMod;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-public class TestModCreativeTab {
+public class CreativeTabLoader {
 
     public static CreativeTabs TESTMOD;
-    public TestModCreativeTab(FMLPreInitializationEvent event) {
+    public static void load(FMLPreInitializationEvent event) {
         TESTMOD = new CreativeTab_TestMod();
     }
 }

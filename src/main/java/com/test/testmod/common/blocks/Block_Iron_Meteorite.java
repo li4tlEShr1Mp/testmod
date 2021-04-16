@@ -4,7 +4,7 @@ import com.test.testmod.TestMod;
 import com.test.testmod.util.IModelExisted;
 import com.test.testmod.util.handlers.BlockHandler;
 import com.test.testmod.util.handlers.ItemHandler;
-import com.test.testmod.util.loaders.TestModCreativeTab;
+import com.test.testmod.util.loaders.CreativeTabLoader;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
@@ -17,7 +17,7 @@ public class Block_Iron_Meteorite extends Block implements IModelExisted {
         super(Material.ROCK);
         this.setUnlocalizedName(name);
         this.setRegistryName(name);
-        this.setCreativeTab(TestModCreativeTab.TESTMOD);
+        this.setCreativeTab(CreativeTabLoader.TESTMOD);
         this.setHardness(10.0f);
         this.setResistance(6.0f);
         this.setSoundType(SoundType.STONE);
@@ -26,7 +26,6 @@ public class Block_Iron_Meteorite extends Block implements IModelExisted {
         ItemHandler.items.add(new ItemBlock(this).setRegistryName(name));
 
     }
-
     @Override
     public void registerModel() {
         TestMod.proxy.registerItemRenderer(Item.getItemFromBlock(this),0,"inventory");

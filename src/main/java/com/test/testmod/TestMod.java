@@ -1,7 +1,8 @@
 package com.test.testmod;
 
 import com.test.testmod.proxy.CommonProxy;
-import com.test.testmod.util.loaders.TestModCreativeTab;
+import com.test.testmod.util.loaders.CreativeTabLoader;
+import com.test.testmod.util.loaders.SmeltingLoader;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -23,12 +24,12 @@ public class TestMod {
     public static CommonProxy proxy;
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
-        new TestModCreativeTab(event);
+        CreativeTabLoader.load(event);
         logger=event.getModLog();
     }
     @Mod.EventHandler
     public void init(FMLInitializationEvent event){
-
+        SmeltingLoader.load();
     }
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event){
