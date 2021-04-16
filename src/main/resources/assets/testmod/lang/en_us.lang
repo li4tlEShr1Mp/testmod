@@ -1,12 +1,12 @@
 #ITEM
 #(item.[item registryName].name)
-item.dick.name=Dick
 item.matrix_crystal.name=Matrix Crystal
 
 #BLOCK
 #(tile.[block registryName].name)
 tile.matrix_crystal_meteorite.name=Matrix Crystal Meteorite
 tile.iron_meteorite.name=Iron Meteorite
+tile.air_crystal.name=Air Crystal
 
 #CREATIVE_TAB
 #(itemGroup.[mod's name])
