@@ -7,7 +7,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 public class CreativeTabLoader {
 
     public static CreativeTabs TESTMOD;
-    public static void load(FMLPreInitializationEvent event) {
+    public static void load() {
         TESTMOD = new CreativeTab_TestMod();
     }
 }

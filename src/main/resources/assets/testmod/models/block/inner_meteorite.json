@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "testmod:blocks/inner_meteorite",
+    "down": "testmod:blocks/inner_meteorite",
+    "up": "testmod:blocks/inner_meteorite",
+    "north": "testmod:blocks/inner_meteorite",
+    "south": "testmod:blocks/inner_meteorite",
+    "west": "testmod:blocks/inner_meteorite",
+    "east": "testmod:blocks/inner_meteorite"
+  }
+}

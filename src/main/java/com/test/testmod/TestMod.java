@@ -24,8 +24,8 @@ public class TestMod {
     public static CommonProxy proxy;
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
-        CreativeTabLoader.load(event);
-        logger=event.getModLog();
+        CreativeTabLoader.load();
+        logger = event.getModLog();
     }
     @Mod.EventHandler
     public void init(FMLInitializationEvent event){
