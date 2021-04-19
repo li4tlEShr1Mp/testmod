@@ -1,16 +1,20 @@
 [
-{
-  "modid": "testmod",
-  "name": "Test Mod",
-  "description": "Example placeholder mod.",
-  "version": "0.0.1v",
-  "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["li4tlEShr1Mp"],
-  "credits": "The Forge and FML guys, for making this example",
-  "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
-}
+  {
+    "modid": "matrix_technology",
+    "name": "Matrix Technology",
+    "description": "Matrix World.",
+    "version": "0.0.1v",
+    "mcversion": "${mcversion}",
+    "url": "https://mc.lobscraft.cn",
+    "updateUrl": "",
+    "authorList": [
+      "li4tlEShr1Mp",
+      "AiR_Sky",
+      "BlackMuller"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
 ]

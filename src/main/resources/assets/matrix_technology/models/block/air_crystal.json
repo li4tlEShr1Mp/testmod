@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "matrix_technology:blocks/air_crystal",
+    "down": "matrix_technology:blocks/air_crystal",
+    "up": "matrix_technology:blocks/air_crystal",
+    "north": "matrix_technology:blocks/air_crystal",
+    "south": "matrix_technology:blocks/air_crystal",
+    "west": "matrix_technology:blocks/air_crystal",
+    "east": "matrix_technology:blocks/air_crystal"
+  }
+}

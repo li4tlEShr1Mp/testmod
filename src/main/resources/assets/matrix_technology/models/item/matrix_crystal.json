@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "matrix_technology:items/matrix_crystal"
+  }
+}

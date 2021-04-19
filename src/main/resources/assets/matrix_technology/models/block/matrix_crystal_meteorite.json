@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "matrix_technology:blocks/matrix_crystal_meteorite",
+    "down": "matrix_technology:blocks/matrix_crystal_meteorite",
+    "up": "matrix_technology:blocks/matrix_crystal_meteorite",
+    "north": "matrix_technology:blocks/matrix_crystal_meteorite",
+    "south": "matrix_technology:blocks/matrix_crystal_meteorite",
+    "west": "matrix_technology:blocks/matrix_crystal_meteorite",
+    "east": "matrix_technology:blocks/matrix_crystal_meteorite"
+  }
+}
