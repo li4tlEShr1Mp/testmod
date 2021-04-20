@@ -8,8 +8,16 @@ import com.lobscraft.matrix_technology.util.loaders.CreativeTabLoader;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemStack;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
 
 public class Block_Air_Crystal extends Block implements IModelExisted {
     private static final String name = "air_crystal";
@@ -33,4 +41,5 @@ public class Block_Air_Crystal extends Block implements IModelExisted {
     public void registerModel() {
         MatrixTechnology.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
     }
+
 }

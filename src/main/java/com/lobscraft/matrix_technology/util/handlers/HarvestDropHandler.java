@@ -17,7 +17,7 @@ public class HarvestDropHandler {
             if (!event.isSilkTouching()) {
                 event.getDrops().clear();
                 for (int i = 0; i <= event.getFortuneLevel(); i++) {
-                    int j = (new Random().nextInt(event.getFortuneLevel()) + 3 - i) / 3;
+                    int j = event.getFortuneLevel() == 0 ? 1 : (new Random().nextInt(event.getFortuneLevel() + 1) + 3 - i) / 3;
                     event.getDrops().add(new ItemStack(ItemHandler.MATRIX_CRYSTAL, j));
                     if (j != 0)
                         event.getWorld().spawnEntity(new EntityXPOrb(event.getWorld(), event.getPos().getX(), event.getPos().getY(), event.getPos().getZ(), j * 3));

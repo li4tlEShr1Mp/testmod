@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "normal": {
+      "model": "matrix_technology:nitramon/nitramon_down"
+    },
+    "facing=up": {
+      "model": "matrix_technology:nitramon/nitramon_up"
+    },
+    "facing=down": {
+      "model": "matrix_technology:nitramon/nitramon_down"
+    },
+    "facing=south": {
+      "model": "matrix_technology:nitramon/nitramon_south"
+    },
+    "facing=north": {
+      "model": "matrix_technology:nitramon/nitramon_north"
+    },
+    "facing=west": {
+      "model": "matrix_technology:nitramon/nitramon_west"
+    },
+    "facing=east": {
+      "model": "matrix_technology:nitramon/nitramon_east"
+    }
+  }
+}
