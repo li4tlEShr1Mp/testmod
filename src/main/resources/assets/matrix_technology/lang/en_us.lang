@@ -8,6 +8,7 @@ tile.inner_meteorite.name=Inner Meteorite
 tile.matrix_crystal_meteorite.name=Matrix Crystal Meteorite
 tile.iron_meteorite.name=Iron Meteorite
 tile.air_crystal.name=Air Crystal
+tile.mithril.name=Mithril
 
 #CREATIVE_TAB
 #(itemGroup.[mod's name])

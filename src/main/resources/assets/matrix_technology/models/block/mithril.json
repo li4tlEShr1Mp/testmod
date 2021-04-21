@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "testmod:blocks/mithril",
+    "down": "testmod:blocks/mithril",
+    "up": "testmod:blocks/mithril",
+    "north": "testmod:blocks/mithril",
+    "south": "testmod:blocks/mithril",
+    "west": "testmod:blocks/mithril",
+    "east": "testmod:blocks/mithril"
+  }
+}
