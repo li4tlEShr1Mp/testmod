@@ -1,7 +1,7 @@
 {
   "variants": {
     "normal": {
-      "model": "testmod:mithril"
+      "model": "matrix_technology:mithril"
     }
   }
 }

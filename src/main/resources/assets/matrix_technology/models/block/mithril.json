@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "particle": "testmod:blocks/mithril",
-    "down": "testmod:blocks/mithril",
-    "up": "testmod:blocks/mithril",
-    "north": "testmod:blocks/mithril",
-    "south": "testmod:blocks/mithril",
-    "west": "testmod:blocks/mithril",
-    "east": "testmod:blocks/mithril"
+    "particle": "matrix_technology:blocks/mithril",
+    "down": "matrix_technology:blocks/mithril",
+    "up": "matrix_technology:blocks/mithril",
+    "north": "matrix_technology:blocks/mithril",
+    "south": "matrix_technology:blocks/mithril",
+    "west": "matrix_technology:blocks/mithril",
+    "east": "matrix_technology:blocks/mithril"
   }
 }
